@@ -282,8 +282,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer className="text-center mt-16 py-8 text-xs text-zinc-400">
-        All processing happens in your browser. We never see your data.
+      <footer className="text-center mt-16 py-8 text-xs text-zinc-400 space-y-2">
+        <p>All processing happens in your browser. We never see your data.</p>
+        <p><a href="https://ko-fi.com/penn662500" target="_blank" className="text-zinc-500 hover:text-violet-600 underline">☕ Support CSV Cleaner on Ko-fi</a></p>
       </footer>
     </div>
   );
